@@ -5,7 +5,7 @@
   "main": "src/index.jsx",
   "scripts": {
     "test": "mocha --require resistdesign-babel-register --ui exports **/*.spec.jsx",
-    "precommit": "documentation build src/index.jsx -f html -o docs && git add docs"
+    "precommit": "documentation build src/**/*.jsx -f html -o docs && git add docs"
   },
   "repository": {
     "type": "git",
