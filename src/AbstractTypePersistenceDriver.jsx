@@ -76,11 +76,11 @@ export default class AbstractTypePersistenceDriver {
    * will be returned on the results object.
    * @param {boolean} options.onlyIds A flag designating that only ids will be
    * returned in the results `data` list.
-   * @param {boolean} options.itemsPerPage The number of items to return in the
+   * @param {number} options.itemsPerPage The number of items to return in the
    * current "page" of results. Setting this option will enable result paging.
-   * @param {boolean} options.pageNumber (1 based) The page of items to return
+   * @param {number} options.pageNumber (1 based) The page of items to return
    * when `itemsPerPage` is used.
-   * @param {boolean} options.orderBy The name of the field by which returned
+   * @param {string} options.orderBy The name of the field by which returned
    * items will be ordered.
    * @param {boolean} options.descending A flag designating whether or not the
    * order of returned items will be reversed.
