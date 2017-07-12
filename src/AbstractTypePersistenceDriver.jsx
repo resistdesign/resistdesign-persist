@@ -4,8 +4,8 @@
  * @property {number} totalPages (1 based) The total number of pages of items based the
  * `itemsPerPage` option.
  * @property {number} currentPage (1 based) The current page of items.
- * @property {Array} data The list of items matching the query or the list of
- * ids if `onlyIds` was enabled.
+ * @property {Array.<Object>|Array.<string>} data The list of items matching the
+ * query or the list of ids if `onlyIds` was enabled.
  * */
 const SearchResults = {};
 
