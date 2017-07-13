@@ -11,34 +11,34 @@ module.exports = {
     'should be a class': () => {
       expect(AbstractTypePersistenceDriver).to.be.a(Function);
     },
-    'config': {
+    config: {
       'should be an instance property with an object value': () => {
         expect(atpd.config).to.be.an(Object);
         expect(atpd.config).to.equal(atpdConfig);
         expect(atpd.config.option1).to.equal(true);
       }
     },
-    'create': {
+    create: {
       'should be a function': () => {
         expect(atpd.create).to.be.a(Function);
       }
     },
-    'read': {
+    read: {
       'should be a function': () => {
         expect(atpd.read).to.be.a(Function);
       }
     },
-    'update': {
+    update: {
       'should be a function': () => {
         expect(atpd.update).to.be.a(Function);
       }
     },
-    'delete': {
+    delete: {
       'should be a function': () => {
         expect(atpd.delete).to.be.a(Function);
       }
     },
-    'search': {
+    search: {
       'should be a function': () => {
         expect(atpd.search).to.be.a(Function);
       }
